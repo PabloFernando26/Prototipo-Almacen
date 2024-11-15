@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="factu.xsl"?>
+<DTE version="1.0">
+  <Documento>
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>4</Folio>
+      </IdDoc>
+      <Receptor>
+        <RznSocRecep>Cliente</RznSocRecep>
+        <RUTRecep>12345678-9</RUTRecep>
+      </Receptor>
+      <Emisor>
+        <RznSocEmisor>Nombre de la Empresa</RznSocEmisor>
+        <RUTEmisor>98765432-1</RUTEmisor>
+      </Emisor>
+      <Totales>
+        <MntTotal>1400</MntTotal>
+        <IVA>266</IVA>
+        <PFinal>1666</PFinal>
+        <MtoPago>Efectivo</MtoPago>
+      </Totales>
+    </Encabezado>
+  </Documento>
+</DTE>

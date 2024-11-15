@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/Proyecto_Almacen/b_facturas/factu.xsl"?>
+<DTE version="1.0">
+  <Documento>
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>2</Folio>
+      </IdDoc>
+      <Receptor>
+        <RznSocRecep>Cliente</RznSocRecep>
+        <RUTRecep>12345678-9</RUTRecep>
+      </Receptor>
+      <Emisor>
+        <RznSocEmisor>Nombre de la Empresa</RznSocEmisor>
+        <RUTEmisor>98765432-1</RUTEmisor>
+      </Emisor>
+      <Totales>
+        <MntTotal>12000</MntTotal>
+        <IVA>2280</IVA>
+        <PFinal>14280</PFinal>
+        <MtoPago>Crédito</MtoPago>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <Producto>
+        <Nombre>Manzanas</Nombre>
+        <Cantidad>4</Cantidad>
+        <Precio>200</Precio>
+      </Producto>
+    </Detalle>
+  </Documento>
+</DTE>

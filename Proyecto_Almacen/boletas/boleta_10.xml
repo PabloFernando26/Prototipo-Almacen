@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
+<DTE version="1.0">
+  <Documento>
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>39</TipoDTE>
+        <Folio>10</Folio>
+        <FchEmis>2024-11-03</FchEmis>
+      </IdDoc>
+      <Receptor>
+        <RznSocRecep>Cliente</RznSocRecep>
+        <RUTRecep>12345678-9</RUTRecep>
+      </Receptor>
+      <Emisor>
+        <RznSocEmisor>Nombre de la Empresa</RznSocEmisor>
+        <RUTEmisor>98765432-1</RUTEmisor>
+      </Emisor>
+      <Totales>
+        <MntTotal>20000</MntTotal>
+        <IVA>3800</IVA>
+        <PFinal>23800</PFinal>
+        <MtoPago>Efectivo</MtoPago>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NmbItem>Manzanas</NmbItem>
+      <QtyItem>4</QtyItem>
+      <PrcItem>200</PrcItem>
+    </Detalle>
+  </Documento>
+</DTE>

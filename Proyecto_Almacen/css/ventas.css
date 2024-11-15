@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/white-elegant-texture-wallpaper_23-2148417584.jpg");
+}
+
+/* Estilo para los cuadros de métodos de pago */
+.payment-option {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 120px; /* Ancho fijo del cuadro */
+    margin: 10px;
+    display: inline-block;
+}
+
+/* Tamaño de la imagen */
+.payment-option img {
+    width: 50px; /* Ancho fijo de la imagen */
+    height: auto;
+    margin-bottom: 8px;
+}
+
+/* Estilo cuando el cuadro es seleccionado */
+.payment-option.selected {
+    border-color: #007bff;
+    background-color: #e9f7ff;
+}
+
+/* Ajuste del contenedor para alinear horizontalmente */
+.payment-options-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
